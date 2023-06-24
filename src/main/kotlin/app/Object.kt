@@ -6,7 +6,7 @@ fun main() {
     val eko = Person()
     val joko = Person()
     val budi = Person()
-println(eko)
-println(joko)
-println(budi)
+    println(eko)
+    println(joko)
+    println(budi)
 }
