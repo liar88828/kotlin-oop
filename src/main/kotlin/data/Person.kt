@@ -4,10 +4,10 @@ class Person(
 //	firstNameParam: String,
 //	middleNameParam: String?,
 //	lastNameParam: String,
+	var firstName: String = "",
+	var middleName: String? = null,
+	var lastName: String = "",
 ) {
-	var firstName: String = "firstNameParam"
-	var middleName: String? = "middleNameParam"
-	var lastName: String = "lastNameParam"
 
 	fun sayHello(name: String): Unit {
 		println("Hello $name, my name is $firstName")
@@ -17,8 +17,8 @@ class Person(
 //		println("Hello $name, my name is $firstName")
 //	}
 
-	fun sayHello(firstNameParam: String, lastNameParam: String) {
-		println("Hello $firstNameParam, my name is $lastNameParam")
+	fun sayHello(firstName: String, lastName: String) {
+		println("Hello $firstName $lastName, my name is ${this.firstName}	")
 	}
 
 	fun run() {
