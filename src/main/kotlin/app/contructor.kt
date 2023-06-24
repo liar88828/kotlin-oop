@@ -3,11 +3,10 @@ package app.app
 import data.Car
 
 fun main() {
-	val toyota = Car("Toyota", 2002)
-	val almaz = Car("Almaz", 2003)
+	val toyota = Car("Toyota")
+	val almaz = Car("Almaz", "wuling")
 
 	println(toyota.brand)
-	println(toyota.year)
 	println(almaz.brand)
 	println(almaz.year)
 }
