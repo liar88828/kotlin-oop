@@ -14,6 +14,7 @@ class Address {
 	}
 
 	constructor(
+//		val// tidak boleh ada property di secondary contractor
 		paramStreet: String,
 		paramCity: String,
 		paramCountry: String
