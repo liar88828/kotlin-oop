@@ -4,6 +4,7 @@ import app.data.Manager
 import app.data.VicePresident
 
 fun main() {
+
 	val manager = Manager("Eko")
 	manager.sayHello("Budi")
 
