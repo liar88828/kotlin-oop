@@ -1,17 +1,13 @@
 package data
 
-class Person {
-	var firstName: String = ""
-	var middleName: String? = null
-	var lastName: String = ""
+class Person(
+	firstNameParam: String,
+	middleNameParam: String?,
+	lastNameParam: String,
+) {
+	var firstName: String = firstNameParam
+	var middleName: String? = middleNameParam
+	var lastName: String = lastNameParam
 }
 
 
-fun main() {
-	val eko = Person()
-	eko.firstName = "Eko"
-	eko.middleName = "Kurniawan"
-	eko.lastName = "Khannedy"
-
-	println(eko.firstName)
-}
