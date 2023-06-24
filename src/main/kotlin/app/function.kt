@@ -3,7 +3,10 @@ package app.app
 import data.Person
 
 fun main() {
-	val eko = Person("Eko", "kurniawan", "khannedy")
+	val eko = Person()
+	eko.firstName = "eko"
+	eko.middleName = "kurniawan"
+	eko.lastName = "khannedy"
 	eko.sayHello("Budi")
 	eko.run()
 	val fullname = eko.getFullName()

@@ -1,16 +1,24 @@
 package data
 
 class Person(
-	firstNameParam: String,
-	middleNameParam: String?,
-	lastNameParam: String,
+//	firstNameParam: String,
+//	middleNameParam: String?,
+//	lastNameParam: String,
 ) {
-	var firstName: String = firstNameParam
-	var middleName: String? = middleNameParam
-	var lastName: String = lastNameParam
+	var firstName: String = "firstNameParam"
+	var middleName: String? = "middleNameParam"
+	var lastName: String = "lastNameParam"
 
-	fun sayHello(name: String) {
+	fun sayHello(name: String): Unit {
 		println("Hello $name, my name is $firstName")
+	}
+	// boleh asalkan prameternya berbeda
+//	fun sayHello(name: Int): Unit {
+//		println("Hello $name, my name is $firstName")
+//	}
+
+	fun sayHello(firstNameParam: String, lastNameParam: String) {
+		println("Hello $firstNameParam, my name is $lastNameParam")
 	}
 
 	fun run() {
