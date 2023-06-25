@@ -1,6 +1,6 @@
 package app.data
 
-class Application(name: String) {
+class Application(val name: String) {
 	//	 object Utilises {
 //		fun upper(name: String): String = name.uppercase()
 //	}
