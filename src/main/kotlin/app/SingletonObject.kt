@@ -10,7 +10,8 @@ fun main() {
 	a()
 	b()
 
-	println(Application.Utilises.upper("Eko"))
+//	println(Application.Utilises.upper("Eko"))// tanpa companion
+	println(Application.upper("Eko"))// dengan companion
 
 }
 
